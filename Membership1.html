@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemberShip</title>
+</head>
+<style>
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+tr:nth-child(odd) td:first-child 
+{
+    background-color: rgb(177, 177, 177);
+    color: white;
+}
+tr:nth-child(odd) td:not(:first-child) 
+{
+    background-color: rgb(206, 206, 206); 
+    color: white;
+}
+tr:nth-child(even) td:first-child 
+{
+    background-color: rgb(131, 131, 131);
+    color: white;
+}
+tr:nth-child(even) td:not(:first-child) 
+{
+    background-color: rgb(177, 177, 177);
+    color: white;
+}
+th, td 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th:first-child, td:first-child 
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+th:last-child, td:last-child 
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+    <table>
+        <thead>
+            <tr style="color: white;;">
+                <th style="height: 200px; background-color:#5d8bf4; font-weight: 1000; text-align: center;">Choose your plan</th>
+                <th style="height: 200px; background-color:#3567da; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Starter<br>
+                    <span style="font-size: 20px;">$ 10</span><br>
+                    <span style="font-size: 14px;">per month</span>
+                </th>
+                <th style="height: 200px; background-color:#1f54ce; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Econom<br>
+                    <span style="font-size: 20px;">$ 30</span><br>
+                    <span style="font-size: 14px;">per month</span>
+                </th>
+                <th style="height: 200px; background-color:#1445b6; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Standard<br>
+                    <span style="font-size: 20px;">$ 59</span><br>
+                    <span style="font-size: 14px;">per month</span>
+                </th>
+                <th style="height: 200px; background-color:#012a8a; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Professional<br>
+                    <span style="font-size: 20px;">$ 99</span><br>
+                    <span style="font-size: 14px;">per month</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="height: 50px;">
+                <td>Amount of Space</td>
+                <td>20 GB</td>
+                <td>40 GB</td>
+                <td>110 GB</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>Bandwidth per month</td>
+                <td>120 GB</td>
+                <td>240 GB</td>
+                <td>610 GB</td>
+                <td>1300 GB</td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>Email Accounts</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>MySQL Databases</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>25h Support</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>Support tickets per month</td>
+                <td>2</td>
+                <td>6</td>
+                <td>14</td>
+                <td>20</td>
+            </tr>
+            <tr style="height: 80px; font-size: large;">
+                <td></td>
+                <td style="text-align: center;"><button style="width: 100px; height: 40px;">Start</button></td>
+                <td style="text-align: center;"><button style="width: 100px; height: 40px;">Start</button></td>
+                <td style="text-align: center;"><button style="width: 100px; height: 40px;">Start</button></td>
+                <td style="text-align: center;"><button style="width: 100px; height: 40px;">Start</button></td>
+            </tr>            
+        </tbody>
+    </table>
+</body>
+</html>
